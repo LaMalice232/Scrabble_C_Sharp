@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfJeton xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Jeton Caractere="64" Valeur="0" Quantite="2" />
+  <Jeton Caractere="65" Valeur="1" Quantite="9" />
+  <Jeton Caractere="66" Valeur="3" Quantite="2" />
+  <Jeton Caractere="67" Valeur="3" Quantite="2" />
+  <Jeton Caractere="68" Valeur="2" Quantite="4" />
+  <Jeton Caractere="69" Valeur="1" Quantite="12" />
+  <Jeton Caractere="70" Valeur="4" Quantite="2" />
+  <Jeton Caractere="71" Valeur="2" Quantite="3" />
+  <Jeton Caractere="72" Valeur="4" Quantite="2" />
+  <Jeton Caractere="73" Valeur="1" Quantite="9" />
+  <Jeton Caractere="74" Valeur="8" Quantite="1" />
+  <Jeton Caractere="75" Valeur="5" Quantite="1" />
+  <Jeton Caractere="76" Valeur="1" Quantite="4" />
+  <Jeton Caractere="77" Valeur="3" Quantite="2" />
+  <Jeton Caractere="78" Valeur="1" Quantite="6" />
+  <Jeton Caractere="79" Valeur="1" Quantite="8" />
+  <Jeton Caractere="80" Valeur="3" Quantite="2" />
+  <Jeton Caractere="81" Valeur="10" Quantite="1" />
+  <Jeton Caractere="82" Valeur="1" Quantite="6" />
+  <Jeton Caractere="83" Valeur="1" Quantite="4" />
+  <Jeton Caractere="84" Valeur="1" Quantite="6" />
+  <Jeton Caractere="85" Valeur="1" Quantite="4" />
+  <Jeton Caractere="86" Valeur="4" Quantite="2" />
+  <Jeton Caractere="87" Valeur="4" Quantite="2" />
+  <Jeton Caractere="88" Valeur="8" Quantite="1" />
+  <Jeton Caractere="89" Valeur="4" Quantite="2" />
+  <Jeton Caractere="90" Valeur="10" Quantite="1" />
+</ArrayOfJeton>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Au lancement de la partie, les joueurs disposent d'un plateau de 15x15 cases, d'une pioche de 102 jetons. Chaque joueur recoit 7 jetons. 
+
+Méthodes de Jeu :
+PREMIER TOUR : Le 1er joueur forme un mot de deux lettres ou plus et le place sur le plateau de manière à ce qu’une des lettres recouvre la case centrale.
+TOURS SUIVANTS : chaque joueur à son tour, ajoute une ou plusieurs lettres aux lettres deja placees sur le plateau pour former des mots nouveaux.
+FIN DE PARTIE : La partie continue jusqu’à ce que la pioche soit epuisee et que l’un des joueurs ait place toutes ses jetons.
+
+Fonctionnalité :
+ - MELANGER : Si l’ordre dans lequel les lettres affichéees ne convient pas, il est possible de le modifier via le bouton Melanger.
+ - REPRENDRE : reprendre les lettres placées sur le chevalet.
+ - ECHANGER : échanger 1 à 7 jetons; dans ce cas, le joueur passe son tour.
+ - PASSER LE TOUR : si les deux joueurs passent chacun leur tour 3 fois de suite, alors la partie s'arrete. Le gagnant est celui qui a le + de points.
+ - VALIDER : Le mot doit se lire soit horizontalement, soit verticalement. Les mots en diagonale ne sont pas permis. Toute lettre ou tout mot validé ne peut etre repris.  Une fois le coup validé via le bouton Valider, le JOUEUR obtient le nombre de points cumules avec son mot. Il reçoit au hasard le meme nombre de jetons joués, depuis la pioche, sauf si cette dernière est vide.
+ - DICTIONNAIRE : pour vérifier la validité d'un mot
+ 
+Mots formés : 
+  - en ajoutant une ou plusieurs lettres a un mot ou a des lettres déjà mis sur le plateau (ex : MET =&gt; REMETTRE)
+  - en placant un mot a l'extremité d'un mot déjà sur le plateau.
+
+Joker (@): 
+On peut utiliser les deux jetons JOKER pour remplacer n’importe quelle lettre. Lorsque le JOUEUR se sert d’un JOKER, il doit indiquer quelle lettre celui-ci represente, apres quoi elle ne pourra plus etre changee pendant tout le reste de la PARTIE. Un JOKER ne peut pas être joué pour le dernier coup d'une partie.
+
+Comptage des points :
+ - NOMBRE DE POINTS : Le nombre des points de chaque joueur est comptabilise apres chaque tour. La valeur des points correspondant a chaque lettre est indiquee en bas à droite du jeton correspondant. Les jokers n'ont pas de valeur. La somme totale de chaque tour est celle qui resulte du nombre des points de toutes les lettres de chaque mot, forme ou modifie par le placement, plus le calcul des points etabli par chaque case BONUS occupee par une lettre. 
+ - BONUS : Bonus pour les lettres (LCD, Lettre Compte Double ou LCT, Lettre Compte Triple) : une case sur laquelle est inscrite « Lettre Compte Double », double le nombre des points de la lettre qui l’occupe ; une case sur laquelle est inscrite « Lettre Compte Triple », triple le nombre des points de la lettre qui l’occupe. Bonus pour les mots (MCD, Mot Compte Double ou MCD, Mot Compte Triple) : le nombre des points d’un mot compte double lorsqu’une des lettres de ce mot est placee sur une case sur laquelle est inscrit « Mot Compte Double ». Il triple lorsqu’une des lettres est placee sur une case « Mot Compte Triple ». Avant de doubler ou tripler les points pour un mot, il faut ajouter (s’il y a lieu), les bonus pour les lettres (LCD, Lettre Compte Double et/ou LCT, Lettre Compte Triple). Si la formation des mots occupe deux cases « Mot Compte Double », le nombre des points se double et puis se redouble (4 fois les points de chaque lettre), ou bien, se triple et se retriple (9 fois les points de chaque lettre) suivant le cas. Il est à noter que la case etoile du centre correspond a une case « Mot Compte Double » et que, par consequent, il double le nombre des points du premier mot forme. Les bonus des lettres et des mots ne comptent que lors du placement de ce ou ces mots. Une fois ce ou ces mots poses, les points des lettres reprennent leur valeur nominale. Lorsqu’une case « Mot Compte Double » ou « Mot Compte Triple » est occupee par un Joker, la somme totale des lettres qui forment le ou les mots est doublee ou triplee, bien que le Joker n’est aucune valeur.
+ - PLUSIEURS MOTS : Lorsque deux ou plusieurs mots sont formes pendant un coup, chaque mot est compté. La lettre commune est comptée (avec ses points bonus s’il y a lieu) dans le total des points de chaque mot.
+ - SCRABBLE : si le joueur parvient à placer ses 7 jetons en un coup, un bonus de 50 points est compte en sa faveur en plus de son nombre de points normal.
+ - FIN DU JEU : A la fin du jeu, le montant total du nombre de points accumules par chaque JOUEUR est reduit du total de la valeur de ses lettres non placees et, si un des JOUEURS a place toutes ses lettres, le total du nombre de ses points est augmente de la somme totale des lettres non placees de tous les autres joueurs.</value>
+  </data>
+</root>
